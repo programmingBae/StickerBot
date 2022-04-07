@@ -5,7 +5,7 @@
   "main": "app.js",
   "scripts": {
     "start": "node app.js",
-    "devStart": "nodemon bot.js"
+    "devStart": "nodemon sticker.js"
   },
   "keywords": [],
   "author": "",
