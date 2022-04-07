@@ -33,6 +33,8 @@ client.on("message", msg => {
     } else if (msg.content === "ivan mana") {
         msg.channel.send({ files: ['./assets/ivan2.jpeg'] })
         msg.reply("baru beres colscols gw")
+    } else if (msg.content === "cimen") {
+        msg.channel.send({ files: ['./assets/ivan3.jpg'] })
     }
 });
 
