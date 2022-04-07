@@ -41,6 +41,7 @@ client.on("message", msg => {
         msg.channel.send({ files: ['./assets/masadepan.jpg'] })
     } else if (msg.content.toLowerCase() === "akbareee") {
         msg.channel.send({ files: ['./assets/akbare.jpg'] })
+        msg.reply("apa bebs")
     }
 });
 
