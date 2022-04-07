@@ -12,11 +12,6 @@ const client = new Client({
         Intents.FLAGS.GUILD_EMOJIS_AND_STICKERS]
 });
 
-
-
-
-
-
 client.on("message", msg => {
     if (msg.content === "ping") {
         msg.channel.send({ files: ['./assets/tes.jpg'] })
