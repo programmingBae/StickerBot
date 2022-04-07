@@ -18,6 +18,9 @@ client.on("message", msg => {
     } else if (msg.content === "padlan") {
         msg.channel.send({ files: ['./assets/padlan.png'] })
     }
+    else if (msg.content === "?") {
+        msg.channel.send({ files: ['./assets/buntal.jpg'] })
+    }
 });
 
 // Login to Discord with your client's token
