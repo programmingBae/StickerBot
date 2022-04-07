@@ -22,7 +22,7 @@ client.on("message", msg => {
         msg.channel.send({ files: ['./assets/buntal.jpg'] })
     } else if (msg.content === "yoibanget") {
         msg.channel.send({ files: ['./assets/yoibanget.jpg'] })
-    } else if (msg.content === "sempurna") {
+    } else if (msg.content === "parfecto") {
         msg.channel.send({ files: ['./assets/sempurna.jpg'] })
     }
 });
