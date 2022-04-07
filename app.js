@@ -24,6 +24,9 @@ client.on("message", msg => {
         msg.channel.send({ files: ['./assets/yoibanget.jpg'] })
     } else if (msg.content === "parfecto") {
         msg.channel.send({ files: ['./assets/sempurna.jpg'] })
+    } else if (msg.content === "irfannn") {
+        msg.channel.send({ files: ['./assets/irfan.jpg'] })
+        msg.reply("iya ini aku disniii")
     }
 });
 
