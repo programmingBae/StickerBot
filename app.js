@@ -27,6 +27,12 @@ client.on("message", msg => {
     } else if (msg.content === "irfannn") {
         msg.channel.send({ files: ['./assets/irfan.jpg'] })
         msg.reply("iya ini aku disniii")
+    } else if (msg.content === "ivannn") {
+        msg.channel.send({ files: ['./assets/ivan.jpg'] })
+        msg.reply("apa say")
+    } else if (msg.content === "ivan mana") {
+        msg.channel.send({ files: ['./assets/ivan2.jpg'] })
+        msg.reply("baru beres colscols gw")
     }
 });
 
