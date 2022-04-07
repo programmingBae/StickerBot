@@ -35,6 +35,12 @@ client.on("message", msg => {
         msg.reply("baru beres colscols gw")
     } else if (msg.content === "cimen") {
         msg.channel.send({ files: ['./assets/ivan3.jpg'] })
+    } else if (msg.content === "hbd pijall") {
+        msg.channel.send({ files: ['./assets/hbdpijal.png'] })
+    } else if (msg.content === "menatap masa depan") {
+        msg.channel.send({ files: ['./assets/masadepan.jpg'] })
+    } else if (msg.content.toLowerCase() === "akbareee") {
+        msg.channel.send({ files: ['./assets/akbare.jpg'] })
     }
 });
 
