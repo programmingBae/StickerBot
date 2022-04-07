@@ -20,6 +20,10 @@ client.on("message", msg => {
     }
     else if (msg.content === "?") {
         msg.channel.send({ files: ['./assets/buntal.jpg'] })
+    } else if (msg.content === "yoibanget") {
+        msg.channel.send({ files: ['./assets/yoibanget.jpg'] })
+    } else if (msg.content === "sempurna") {
+        msg.channel.send({ files: ['./assets/sempurna.jpg'] })
     }
 });
 
