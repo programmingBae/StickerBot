@@ -31,7 +31,7 @@ client.on("message", msg => {
         msg.channel.send({ files: ['./assets/ivan.jpg'] })
         msg.reply("apa say")
     } else if (msg.content === "ivan mana") {
-        msg.channel.send({ files: ['./assets/ivan2.jpg'] })
+        msg.channel.send({ files: ['./assets/ivan2.jpeg'] })
         msg.reply("baru beres colscols gw")
     }
 });
