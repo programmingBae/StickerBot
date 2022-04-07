@@ -22,5 +22,8 @@ client.on("message", msg => {
 
 // Login to Discord with your client's token
 
-
+const PORT = process.env.PORT || 3000;
+client.listen(PORT, () => {
+    console.log(`Our app is running on port ${ PORT }`);
+});
 client.login(token);
