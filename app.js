@@ -12,10 +12,12 @@ const client = new Client({
         Intents.FLAGS.GUILD_EMOJIS_AND_STICKERS]
 });
 
+const re = new RegExp('(dlan)');
+
 client.on("message", msg => {
     if (msg.content === "ping") {
         msg.channel.send({ files: ['./assets/tes.jpg'] })
-    } else if (msg.content === "padlan") {
+    } else if (re.test(msg.content)) {
         msg.channel.send({ files: ['./assets/padlan.png'] })
     }
     else if (msg.content === "?") {
