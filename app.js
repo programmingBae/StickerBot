@@ -17,9 +17,9 @@ const re = new RegExp('(dlan)');
 client.on("message", msg => {
     if (msg.content === "ping") {
         msg.channel.send({ files: ['./assets/tes.jpg'] })
-    } else if (re.test(msg.content)) {
-        msg.channel.send({ files: ['./assets/padlan.png'] })
-    }
+    // } else if (re.test(msg.content)) {
+    //     msg.channel.send({ files: ['./assets/padlan.png'] })
+    // }
     else if (msg.content === "?") {
         msg.channel.send({ files: ['./assets/buntal.jpg'] })
     } else if (msg.content === "yoibanget") {
