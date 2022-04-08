@@ -20,6 +20,7 @@ client.on("message", msg => {
     // } else if (re.test(msg.content)) {
     //     msg.channel.send({ files: ['./assets/padlan.png'] })
     // }
+    }
     else if (msg.content === "?") {
         msg.channel.send({ files: ['./assets/buntal.jpg'] })
     } else if (msg.content === "yoibanget") {
