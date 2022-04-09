@@ -49,14 +49,6 @@ client.on("message", msg => {
     } else if (msg.content.toLowerCase() === "gipaway irfan ivan akbar") {
         msg.channel.send({ files: ['./assets/gipaway.png'] })
         msg.reply("apa bebs")
-    } else if (msg.content === ":afh iyh"){
-        const author = msg.member;
-        const webhook = msg.channel.createWebhook(author.displayName, {
-            avatar: author.displayAvatarURL({ dynamic: true })
-        }); 
-        msg.delete();
-        webhook.send({files : ['./assets/apa-iya.jpg']});
-
     }
 });
 
