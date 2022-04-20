@@ -49,6 +49,8 @@ client.on("message", msg => {
     } else if (msg.content.toLowerCase() === "gipaway irfan ivan akbar") {
         msg.channel.send({ files: ['./assets/gipaway.png'] })
         msg.reply("apa bebs")
+    } else if (msg.content.toLowerCase() === "hah") {
+        msg.channel.send({ files: ['./assets/iwak.jpg'] })
     }
 });
 
